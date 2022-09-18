@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+h3{
+    text-align: center;
+}
+</style>
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="animate-charcter"> I LOVE YOU PANGIT</h3>
+          </div>
+        </div>
+      </div>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/306937555_2157710144408945_6892678848218138761_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHAuN7iKSu6ZOJZgtbReolThoU0zex5xvOGhTTN7HnG895nspJ82mJeR0OQaDs4P_Z2jnUBdVOQsM_yP5dV6vPe&_nc_ohc=Td-D9F07Y8wAX_KPZAI&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT81aKn3MA6L8m9Y-CfhXOENAoWw30Dj0uSDj9AhQjvnIA&oe=632CE89E" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307069965_2157710027742290_3062259233391014978_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGMGcxN809z3Zlv1ksM5DDoRoSvep2pgmNGhK96namCYyMI1NSmU05NTfepfw899_fYLuQaL-hBbRl7ZU-3fI-b&_nc_ohc=szGkQKbnhl0AX8LG9ps&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT-TfXbnc20BqLX0YjV-L0DxvIuxAZ7kZN-NER6kHPwvsg&oe=632C41AF" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/306970285_2157710071075619_1406327287510402615_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGywcp3vWxn1GPCY705VqMQip6xP4d5PziKnrE_h3k_OFpf-pgJAWXvt36DxmT-unhEc8hDu9ENafAl0Ri9aqHS&_nc_ohc=HWQKDRDVJTIAX8Tdwh_&tn=0wwP6qXVZkRCdyJb&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT-n3WAD8FHRyBSEjXNEJ6kmtNEqwAmcBNSouCEgTHloLw&oe=632C2DDB" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307556209_2157710104408949_6300116855604804795_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH7A2DxOjUVhIqTOm1oPDMOICGSx8O7VUMgIZLHw7tVQzvwKA_o-cLhxU0dHoMu31gzRPsdKqGMJfRzF-flHVJM&_nc_ohc=qtza7quTzmAAX9Tr2MA&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT-Z9hSRisCXJtjL4N2v2rlRQYDlElWQ3D3IFLTficU0iw&oe=632B9874" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/306914888_2157710577742235_8945455207065455271_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFa08eHHHtwJaZX6SScqgFDtNCfj5V3lqu00J-PlXeWqzgjx_3ySbeRktrurIzxmm1T_jT8LBQDpw6BRbbFGQdt&_nc_ohc=odbXTAjIRiMAX8MKgkX&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT8nfHT3qGJEM9kTkAuf4ezWoUUI6RhYNfZgm2Hi5pEGOg&oe=632C97CA" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307326639_2157710534408906_8475297900091914843_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFrpaSV0LPl_IZ0_9Iq44Wo9nsvgdQieA72ey-B1CJ4DhOtgd5Ei66F4mAsjFim5OtPDYpsWQTxvyvojofYsx23&_nc_ohc=xYmbt_cmtRMAX_ipfm7&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT_Yy_xJ6vf9cC2XiSISyrhyL-8jAv4y5KIrBQBamkA8xA&oe=632C3D5A" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/306927767_2157710824408877_700312916215441691_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGudi31eomADIuppmBeTeulAC5fCLr6HIYALl8IuvochkqS0KLKgZFLphT5IUVMPc1rnVXt1wXQe3ocQPpg5ax3&_nc_ohc=1ktcFDjZvO4AX_n6b8P&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT8mcB2L3mj8Z867aCWwn9OQNbCK_RkXM7EZjqbnGzn39Q&oe=632CF7D6" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307309204_2157710821075544_5188582448911457717_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHWPDBgfm7QlKyzk_tnwsgjx-9XyWY2FmjH71fJZjYWaAK-Stjp4_snckHi8VZ15j5DEnOA17Ng1mZJSGlm7u_Q&_nc_ohc=o_FdCuvVbaAAX8qDjuT&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT9Qm3M1Umaairu6Hz0RPry2TQ76AmUOkE1wcxjR3KYkDQ&oe=632BADE9" style="width:100%">
+    <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/306842018_2157710734408886_1432220209129347932_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF4Wqb-4XtbV58BeVrxPWhi0qvYu3EQTxrSq9i7cRBPGnR7XKRACwHFLaJgC-QoYxD9uImqruq1kYe3rQGxhiQw&_nc_ohc=O73lYjea4-AAX_ozZma&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT8gc40HeTnMetHOjoHQDZ5x8OtxrglcuEu3juKkT45KnA&oe=632C09DE" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/306962235_2157711057742187_472531820546414495_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGX7tavzUwAojJ6___9ulzTLj2kV7VMPrcuPaRXtUw-t7Nwtnq0ZKwm7aN63AeqG0Rj7iYkorsG0BPcs21bvtPY&_nc_ohc=BAhkiyIB970AX9WOs7Q&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT_PQK2Tv13bR0yxJDHRxqmQIiLyCauu0QROPOTP9xXWMA&oe=632CDE2D" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307092498_2157711171075509_4288170549935274298_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeG_B25bhiQni_rrnfAHt27Znq3JfFp9fPuercl8Wn18-7kVxOqr-vzDnCD0U4eLsv_Ba1oYWDtBlcguYNfXB3L8&_nc_ohc=Tq1V1x7x2T4AX_pdW53&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT80lRrWb-gddhN51tPf3lYFmZjy03j8TsSaJUY52VObjg&oe=632C0007" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307334213_2157711197742173_4147040091524770580_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF-fWFr1ISKPBE4Vb0Jlexv2dFZVF-W9hDZ0VlUX5b2EF8v61qIdSdx77jIRA049Yk_bxZsjYxDEYAs5bBtnaX3&_nc_ohc=FxyVxiYatUcAX-pNqFH&tn=0wwP6qXVZkRCdyJb&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT9nyo9_HD4gWS_PemKJwSqqbV7CHN3DZZrD0cqogvImTA&oe=632BA24B" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307509953_2157711367742156_6292015324380803959_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHs-TvDcMesRxOLKIcAZMyVbYqX9Am7onNtipf0Cbuic8Z2WpW3-0Xe0mA0EiNEioXcFzoolWt4JyLMe80hHadZ&_nc_ohc=RQpS2OrGCs0AX_TTe-K&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT-xIcvKGxGceyPCsN6U_H1hW7EDSWZXO2_ZgKKV23mf5w&oe=632CB29C" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/307085950_2157711557742137_1200730936645167647_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHoTTfKmM79qXs6TjGV-8OZlxpI3TjoQmWXGkjdOOhCZQJhrYbzRA8OyE5uprbV3KpH7eFixsyo3yJ7CwKoBrDY&_nc_ohc=YhPr6GjyFJ0AX8YMC-W&_nc_oc=AQkjY6muYcll5kCZCCypFQ8mPoqUD6Tf0MlpiExNOErFIHrCPZlC0l-rWufYZDDp3yE&_nc_ht=scontent.fmnl3-2.fna&oh=00_AT9zAyifY_TAcVKH0fOoGaOGwYGE3B2QgmZjGB-ukTPvYg&oe=632D10CE" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307027074_2157711544408805_2945714749566560006_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeE_fh8BKMS3YawWrE6_zxspaQnUbfJbRglpCdRt8ltGCYwNPUbXGms3ZkSVFCKgODwj9_zHn8AjydLeEBQEL0rw&_nc_ohc=He7UiLs3nvMAX_61Hy4&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT_IoiENUuUTOju0mAfIG8y7rWk8CqN8F6-P7ymWClDqMg&oe=632CE535" style="width:100%">
+    <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/307374461_2157711787742114_4321089632906230635_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEPGylusS9t9ytfVexCess_sVQcKCZZW-SxVBwoJllb5BqYBIPJtPHNfCHDCPd822ZIeKmvscnnEkz1InQjtD93&_nc_ohc=8IpW4cpl8aAAX9RvKl9&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT94I3999D2j01f8dAz7vniiNY4bJuW9lQpItGNdFPvOyg&oe=632C7938" style="width:100%">
+    <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/307100243_2157711917742101_5737584209599584229_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEFaiiDxlhcD7DQqmIk5QD7PUPmC3NFoTM9Q-YLc0WhM-vekbMHUiJBOeoFIofdYFzqyf_Hc-PoeOuILX2A63wJ&_nc_ohc=B7Pe3wzP7S0AX81URkb&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT9U9rgVq8hSiT3gSxjTUDqdQPxjU3IupmDPYG7p8bXsfQ&oe=632CE12A" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307572538_2157711907742102_7159157351009729046_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFhLUVj0qMsFeyXe3io7hKwkripHNMFT0aSuKkc0wVPRk8vxBvebJpzh27IqLqvJ26YNuTBMRGhUuzVqd9c5gos&_nc_ohc=tYv7Yr-QyooAX_pmzpn&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT_QMVvW5yVqe5L3CI8M4YFxQCxCbNQWhKT4k_-YhWf19A&oe=632C1907" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/307100266_2157712127742080_1362054664820591509_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeF-kyW1yLa_72jClxGclCOxPa3PyiBKyiA9rc_KIErKIHTFKHDEVi53BRtjSiHHc2E1Z2_7-3feCKPOUevnMOS6&_nc_ohc=qlG_dEAn2UkAX-HUalP&tn=0wwP6qXVZkRCdyJb&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT-TEoHi8sN1zzMBbwk8SFKxVPXQTU6klNH9uUBDnXnC_w&oe=632CC2B4" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/306982535_2157712341075392_8310179542376272831_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEjH3IDFPs61rILrVxMBw_ULGAX01xYJzIsYBfTXFgnMiToQhlJ4kc-0ZL-VJnpL3IgVbYjfnNZyzn73K16xbFa&_nc_ohc=CHzZLoc0dFUAX8EAjnO&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT83ZcfnFhS5ilGmgTA7MZVXgi2bbadW0iJ-zKa_qfveEw&oe=632C4E19" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307568394_2157712007742092_5282607511109607383_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHw_tGGzB-IMdoAhhTShGikGRgTrek7mLsZGBOt6TuYuzArgcGPHDmYZae_5iu4M_sMRms9w12muw6zvcU1iX-q&_nc_ohc=gN4nJz5xMUMAX85HIjN&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT_eYz7_xOieYqVH6FMswjcJ3YYeOfQpxH5aAgHwzm9s9w&oe=632BC896" style="width:100%">
+    <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/306971173_2157712117742081_4987478840854915323_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFX7EZfv-waHXvKHVxTKktRw5ry8lvh4FTDmvLyW-HgVJEpvVn1OYjVBsPYLd4gwa6GnFg0c9tPNcLPsaizAG61&_nc_ohc=jcTrlRfeAFQAX8U0MUN&_nc_ht=scontent.fmnl3-2.fna&oh=00_AT-OMg6w628lCloZSyOODWIBIMr9kjuKdVqxNwDuJX-pCA&oe=632CA0B6" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/307094897_2157712184408741_8771474035387965885_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH52kmiCYdUCDWlc0pR9HuWz5sksxvzzmvPmySzG_POax-jrrtln1Zxmt-l00Dmp2euR8z_XkwG_TEFn5VUoiX7&_nc_ohc=0cSzJu2ni-0AX-75ypU&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT_2juZTqvPa5l4mKnORMrW7OShY4JU4Dle0GVl8Ic4kqQ&oe=632B789F" style="width:100%">
+    <img src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/306956616_2157712194408740_3594225880601777980_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGmm-PkTx1HUattzCOD2qnwH0uOIH4RMDYfS44gfhEwNsUWtHjpt8afocKJZlijUXzGOJYlODSJFjbG8lOc3_Df&_nc_ohc=oQZ7e5TGUXYAX9oLuQT&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT9ie6KT2g8S3xPMf1ZRi0C8u9Y00zO9cW-33Ay4T4ho2g&oe=632B2A2C" style="width:100%">
+    <img src="https://scontent.fcrk3-1.fna.fbcdn.net/v/t39.30808-6/306955425_2157712254408734_7123234483346153902_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGVhjf1qz9lEOPnYXKx5MNUzgcoMM0LaKjOBygwzQtoqMOy8WyWaFlh6roDOUHadO_8JYHUgAFDxFnfuZ3BupWD&_nc_ohc=5qSuAAYNo3wAX9d9MI1&_nc_ht=scontent.fcrk3-1.fna&oh=00_AT-KNOzekngKJP8ikQy3CIg0QDP5SGt7N-tABrIyHJs-Yw&oe=632B2762" style="width:100%">
+    <img src="https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/306992525_2157712271075399_9148088522678604687_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEfrPoZfOsPcsKTx3YzBJB0WILE4p9sQKJYgsTin2xAovlcfWqkMtHaqiwo-C5oGIXs92L1raLQQru1Bd5DWfvS&_nc_ohc=rkIuk6Hf9hcAX9sv0Ow&_nc_ht=scontent.fcrk3-2.fna&oh=00_AT8UxmrJnZdPV1vKz6xWSqAMw66AYLSqnlz9K4udaY7F3g&oe=632B4CC5" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
